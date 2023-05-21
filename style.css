@@ -4,7 +4,6 @@
   font-family: "VT323", monospace;
   color: #db0e15;
   text-shadow: 0 0 5px rgba(219, 14, 21, .8);
-
   position: relative;
 }
 
@@ -22,19 +21,18 @@
 }
 
 .receipt {
-  width: 300px;
+  width: 100%;
   min-height: 100vh;
   background: #000;
   margin: 0 auto;
   padding: 10px;
 }
 
-
-#canvas, canvas {
-  width: 300px;
-  height: 300px;
+#canvas,
+canvas {
+  width: 100%;
+  height: auto;
 }
-
 
 .logo {
   text-align: center;
@@ -43,52 +41,35 @@
 
 .barcode {
   font-family: "Libre Barcode 128";
-  font-size: 42px;
+  font-size: 8vw;
   text-align: center;
 }
 
 .address {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
 
-.politica {
-  text-align: center;
-  margin-bottom: 10px;
-  padding: 20px;
-}
-
-.arte {
-  text-align: center;
-  margin-bottom: 10px;
-  padding: 20px;
-}
-
-.curiosidad {
-  text-align: center;
-  margin-bottom: 10px;
-  padding: 20px;
-}
-
-.curiosidades {
-  text-align: center;
-  margin-bottom: 10px;
-  padding: 20px;
-}
-
+.politica,
+.arte,
+.curiosidad,
+.curiosidades,
 .poemas {
   text-align: center;
-  margin-bottom: 10px;
-  padding: 20px;
+  margin-bottom: 2%;
+  padding: 5%;
 }
 
 .transactionDetails {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 10px 10px;
+  margin: 0 5px 5px;
 }
+
 .transactionDetails .detail {
   text-transform: uppercase;
+  flex-basis: 50%;
 }
 
 .centerItem {
@@ -101,6 +82,7 @@
   text-align: center;
   margin-bottom: 12px;
 }
+
 .survey .surveyID {
   font-size: 20px;
 }
@@ -109,12 +91,14 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
 }
 
 .creditDetails {
   margin: 10px auto;
-  width: 230px;
+  width: 100%;
+  max-width: 230px;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -126,7 +110,8 @@
 
 .returnPolicy {
   margin: 10px 20px;
-  width: 220px;
+  width: 100%;
+  max-width: 220px;
   display: flex;
   justify-content: space-between;
 }
@@ -137,30 +122,36 @@
 
 .tripSummary {
   margin: auto;
-  width: 255px;
+  width: 100%;
+  max-width: 255px;
 }
+
 .tripSummary .item {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  width: 220px;
+  width: 100%;
+  max-width: 220px;
 }
 
 .feedback {
   margin: 20px auto;
 }
+
 .feedback h3.clickBait {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
   margin: 10px 0;
 }
+
 .feedback h4.web {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin: 10px 0;
 }
+
 .feedback .break {
   text-align: center;
   font-size: 18px;
@@ -172,32 +163,58 @@
   border-top: 1px dashed #db0e15;
   margin-bottom: 20px;
 }
+
 .couponContainer .discount {
-  font-size: 35px;
+  font-size: 8vw;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
+
 .couponContainer .discountDetails {
-  font-size: 20px;
+  font-size: 5vw;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 3%;
 }
+
 .couponContainer .barcode {
-  margin: 10px 0 0;
+  margin: 2% 0 0;
 }
+
 .couponContainer .legal {
   font-size: 12px;
   margin-bottom: 12px;
 }
+
 .couponContainer .barcodeID {
   margin-bottom: 8px;
 }
+
 .couponContainer .expiration {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 2%;
 }
+
 .couponContainer .couponBottom {
   font-size: 13px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .receipt {
+    padding: 5px;
+  }
+
+  .barcode {
+    font-size: 10vw;
+  }
+
+  .address,
+  .politica,
+  .arte,
+  .curiosidad,
+  .curiosidades,
+  .poemas {
+    padding: 2%;
+  }
 }
