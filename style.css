@@ -212,3 +212,19 @@
   height: auto;
 }
 
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100%; /* Establece el espacio para mantener la proporción de aspecto 1:1 */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
