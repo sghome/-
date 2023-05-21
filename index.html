@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+ 
+
+
+ 
+
+
   <meta charset="UTF-8">
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+	
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9F9D89KY9C"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -12,57 +20,37 @@
 
   gtag('config', 'G-9F9D89KY9C');
 </script>
+	
+	
+	
+  <title>СГ</title>
+
+<script type="text/javascript">
+
+  var scrollSpeed = 500,
+    ease = 'easeOutCubic'
+
+$('ul.alpha-nav a').click(function() {
+       
+    var id = $(this).attr('href');  
+   
+    var offset = $(id).offset().top - 40;
+     
+    return false;
+        });
+
+</script>
+
+
+  <STYLE type="text/css">
+   
+#card {
   
-  
-  <title>Login</title>
-
-<style>
-    #link { color: #db0e15; } /* CSS link color */
-  </style>
-
-<STYLE type="text/css">
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
-.image-replacement {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden
+  width: 520px;
+  min-height: 392px;
+   
+   
 }
-
-span.amp {
-  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif !important;
-  font-style: italic
-
-}
-
-
-
-
-
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none
-}
-
-body {
-  color: #db0e15;
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 26px;
-  font-weight: 300;
-
-  text-shadow: 0 0 5px rgba(219, 14, 21, .8);
-  background: url(https://image.ibb.co/h2hLAJ/bg.png) #000;
-  position: relative;
-  height: 100vh
-}
-
- 
 
 
 .ascii-art {
@@ -71,755 +59,2237 @@ body {
     font-size: 7px;
 }
 
-  .ascii-art2 {
+.ascii-art2 {
     font-family: monospace;
     white-space: pre;
     font-size: 7px;
-    color: #05ff9b;
+    
 }
 
-
-.container {
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%)
+#object {
+  color: #fff;
+  font-family: 'Ubuntu Mono', Courier, monospace;
+   
 }
-
-.container.is-success {
-  -webkit-filter: hue-rotate(180deg) brightness(2.7);
-  filter: hue-rotate(180deg) brightness(2.7)
+#object > .dec {
+  color: #ccbb75;
 }
-
-.screen::after {
-  content: '';
-  display: block;
-  background: url(https://image.ibb.co/dbSZLJ/bottom.png) no-repeat center;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 500px;
-  height: 28px
+#object > .name {
+  color: #7f99bb;
 }
-
-.title {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1em;
-  font-weight: 300
-}
-
-.title::after,
-.title::before {
-  content: '';
-  display: inline-block;
-  background: url(https://image.ibb.co/gpxZLJ/top_outer.png);
-  width: 144px;
-  height: 20px;
-  margin: 0 20px
-}
-
-.container:not(.is-success) .title.is-success {
-  color: #22edfc
-}
-
-.box--outer {
-  position: relative;
-  margin: 0 auto;
-  width: 90%;
-  max-width: 1080px;
-  border-top: #000 18px solid;
-  border-bottom: #000 18px solid;
-  -o-border-image: url(https://image.ibb.co/kHHeny/hor_line.png) 17 11 17 round;
-  border-image: url(https://image.ibb.co/kHHeny/hor_line.png) 17 11 17 round
-}
-
-.box {
-  display: inline-block;
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  max-width: 1080px
-}
-
-.box--inner {
-  display: inline-block;
-  width: calc(100% - 105px);
-  max-width: 1010px
-}
-
-.box--inner::after,
-.box--inner::before {
-  content: '';
-  display: inline-block;
-  background: url(https://image.ibb.co/kvJfud/box_inner.png) no-repeat center;
-  max-width: 642px;
-  width: 100%;
-  height: 27px
-}
-
-.content {
-  position: relative;
-  display: block;
-  max-height: 600px;
-  min-height: 400px;
-  height: 100%
-}
-
-.content .holder {
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%)
-}
-
-.col.col__center,
-.col.col__left {
-  display: inline-block
-}
-
-.col.col__left {
-  width: 130px
-}
-
-.col.col__center {
-  width: 350px;
-  margin-right: 130px
-}
-
-.label::after {
-  content: ':';
-  margin-left: -15px;
-  display: inline-block
-}
-
-#email,
-#login,
-#password {
-  border: 2px solid #d7001e;
-  margin: 10px 0;
-  padding: 10px;
-  width: auto;
-  max-width: 100%;
-  overflow: visible;
-  outline: 0;
-  background: 0 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal
-}
-
-#email::-moz-selection,
-#login::-moz-selection,
-#password::-moz-selection {
-  background: #000
-}
-
-#email::selection,
-#login::selection,
-#password::selection {
-  background: #000
-}
-
-#submit {
-  border: none;
-  margin: 20px;
-  padding: 10px 40px;
-  width: auto;
-  overflow: visible;
-  outline: 0;
+#object > .brackets:not(.hide) {
   cursor: pointer;
-  background: 0 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  -webkit-appearance: none;
-  background: rgba(219, 14, 21, .2);
-  text-transform: uppercase
 }
-
-@media only screen and (max-width:1260px) {
-  .title::after,
-  .title::before {
-    width: 42px;
-    height: 18px
-  }
-  .col.col__center,
-  .col.col__left {
-    display: block;
-    width: auto;
-    margin: 0
-  }
-  .box--outer::after,
-  .box--outer::before {
-    display: none
-  }
-  .title::after,
-  .title::before {
-    margin: 0 5px
-  }
-  .content {
-    height: 440px
-  }
-  .box::after,
-  .box::before {
-    height: 500px
-  }
-  #submit {
-    margin-bottom: 0
-  }
+#object > .brackets > .dots {
+   
 }
-
-@media only screen and (max-width:600px) {
-  .container {
-    font-size: .8em
-  }
-  .title::after,
-  .title::before {
-    width: 4%;
-    height: 18px
-  }
-  .box--outer {
-    -o-border-image: url(https://image.ibb.co/kHHeny/hor_line.png) 17 330 17 round;
-    border-image: url(https://image.ibb.co/kHHeny/hor_line.png) 17 330 17 round
-  }
-  .box::after,
-  .box::before {
-    width: 22px;
-    background: url(ver-line-mobile.png) no-repeat center;
-    background-size: contain
-  }
-  .box--inner {
-    width: calc(100% - 44px)
-  }
-  #email,
-  #login,
-  #password {
-    max-width: 70%
-  }
-  .screen::after {
-    max-width: 180px
-  }
+#object > .pairs {
+ 
 }
-
-.flash {
-  -webkit-animation: flashText 1s ease-out alternate infinite;
-  animation: flashText 1s ease-out alternate infinite
-}
-
-@-webkit-keyframes flashText {
-  0% {
-    opacity: .3
-  }
-  100% {
-    opacity: 1
-  }
-}
-
-@keyframes flashText {
-  0% {
-    opacity: .3
-  }
-  100% {
-    opacity: 1
-  }
-}
-
-.typewriter .typewriter-line {
-  visibility: hidden
-}
-
-@-webkit-keyframes flicker {
-  0% {
-    opacity: .86139
-  }
-  5% {
-    opacity: .12793
-  }
-  10% {
-    opacity: .36759
-  }
-  15% {
-    opacity: .9766
-  }
-  20% {
-    opacity: .61364
-  }
-  25% {
-    opacity: .94477
-  }
-  30% {
-    opacity: .57811
-  }
-  35% {
-    opacity: .03416
-  }
-  40% {
-    opacity: .21835
-  }
-  45% {
-    opacity: .62054
-  }
-  50% {
-    opacity: .89452
-  }
-  55% {
-    opacity: .89997
-  }
-  60% {
-    opacity: .37872
-  }
-  65% {
-    opacity: .04929
-  }
-  70% {
-    opacity: .14477
-  }
-  75% {
-    opacity: .27512
-  }
-  80% {
-    opacity: .84701
-  }
-  85% {
-    opacity: .85952
-  }
-  90% {
-    opacity: .76553
-  }
-  95% {
-    opacity: .91372
-  }
-  100% {
-    opacity: .05536
-  }
-}
-
-@keyframes flicker {
-  0% {
-    opacity: .86139
-  }
-  5% {
-    opacity: .12793
-  }
-  10% {
-    opacity: .36759
-  }
-  15% {
-    opacity: .9766
-  }
-  20% {
-    opacity: .61364
-  }
-  25% {
-    opacity: .94477
-  }
-  30% {
-    opacity: .57811
-  }
-  35% {
-    opacity: .03416
-  }
-  40% {
-    opacity: .21835
-  }
-  45% {
-    opacity: .62054
-  }
-  50% {
-    opacity: .89452
-  }
-  55% {
-    opacity: .89997
-  }
-  60% {
-    opacity: .37872
-  }
-  65% {
-    opacity: .04929
-  }
-  70% {
-    opacity: .14477
-  }
-  75% {
-    opacity: .27512
-  }
-  80% {
-    opacity: .84701
-  }
-  85% {
-    opacity: .85952
-  }
-  90% {
-    opacity: .76553
-  }
-  95% {
-    opacity: .91372
-  }
-  100% {
-    opacity: .05536
-  }
-}
-
-@-webkit-keyframes steady {
-  from {
-    background: rgba(255, 230, 230, .1)
-  }
-  to {
-    background: rgba(49, 45, 45, .1)
-  }
-}
-
-@keyframes steady {
-  from {
-    background: rgba(255, 230, 230, .1)
-  }
-  to {
-    background: rgba(49, 45, 45, .1)
-  }
-}
-
-body {
-  position: relative;
-  overflow: hidden
-}
-
-body::after {
-  content: " ";
+#object > .pairs > .pair {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  pointer-events: none;
-  background: rgba(49, 45, 45, .1);
-  opacity: 0;
-  pointer-events: none;
-  -webkit-animation: flicker .15s infinite, steady 4s;
-  animation: flicker .15s infinite, steady 4s
+}
+#object > .pairs > .pair > .key {
+  color: #988095;
+}
+#object > .pairs > .pair > .value {
+  color: #96b38a;
+}
+#object > .pairs > .pair > .value > a {
+  color: #96b38a;
+}
+#object > .pairs > .pair > .value > a:hover {
+  color: #fff;
+}
+#object > .pairs > .pair > .bool {
+  color: #ccbb75;
+}
+#object .hide {
+  display: none;
+}
+#object .show {
+  display: none;
 }
 
-body.off {
-  background: #000
-}
+ 
 
-body.off::after {
-  -webkit-animation: none;
-  animation: none
-}
 
-@-webkit-keyframes turn-on {
-  0% {
-    -webkit-transform: scale(1, .8) translate3d(0, 0, 0);
-    transform: scale(1, .8) translate3d(0, 0, 0);
-    opacity: 1
-  }
-  5% {
-    -webkit-transform: scale(1.09139, 1.34235) translate3d(0, 100%, 0);
-    transform: scale(1.09139, 1.34235) translate3d(0, 100%, 0)
-  }
-  10% {
-    -webkit-transform: scale(.63084, 1.40698) translate3d(0, -100%, 0);
-    transform: scale(.63084, 1.40698) translate3d(0, -100%, 0)
-  }
-  15% {
-    -webkit-transform: scale(.75142, 1.34118) translate3d(0, 100%, 0);
-    transform: scale(.75142, 1.34118) translate3d(0, 100%, 0)
-  }
-  20% {
-    -webkit-transform: scale(.96173, 1.36858) translate3d(0, -100%, 0);
-    transform: scale(.96173, 1.36858) translate3d(0, -100%, 0)
-  }
-  25% {
-    -webkit-transform: scale(1.1348, 1.02729) translate3d(0, 100%, 0);
-    transform: scale(1.1348, 1.02729) translate3d(0, 100%, 0)
-  }
-  30% {
-    -webkit-transform: scale(.97038, .71092) translate3d(0, -100%, 0);
-    transform: scale(.97038, .71092) translate3d(0, -100%, 0)
-  }
-  35% {
-    -webkit-transform: scale(.6067, 1.31101) translate3d(0, 100%, 0);
-    transform: scale(.6067, 1.31101) translate3d(0, 100%, 0)
-  }
-  40% {
-    -webkit-transform: scale(.786, .9326) translate3d(0, -100%, 0);
-    transform: scale(.786, .9326) translate3d(0, -100%, 0)
-  }
-  45% {
-    -webkit-transform: scale(1.38602, 1.14399) translate3d(0, 100%, 0);
-    transform: scale(1.38602, 1.14399) translate3d(0, 100%, 0)
-  }
-  50% {
-    -webkit-transform: scale(.69973, .90412) translate3d(0, -100%, 0);
-    transform: scale(.69973, .90412) translate3d(0, -100%, 0)
-  }
-  51% {
-    -webkit-transform: scale(1, 1) translate3d(0, 0, 0);
-    transform: scale(1, 1) translate3d(0, 0, 0);
-    -webkit-filter: brightness(1) saturate(1);
-    filter: brightness(1) saturate(1);
-    opacity: 0
-  }
-  100% {
-    -webkit-transform: scale(1, 1) translate3d(0, 0, 0);
-    transform: scale(1, 1) translate3d(0, 0, 0);
-    -webkit-filter: contrast(1) brightness(1.2) saturate(1.3);
-    filter: contrast(1) brightness(1.2) saturate(1.3);
-    opacity: 1
-  }
-}
 
-@keyframes turn-on {
-  0% {
-    -webkit-transform: scale(1, .8) translate3d(0, 0, 0);
-    transform: scale(1, .8) translate3d(0, 0, 0);
-    opacity: 1
-  }
-  5% {
-    -webkit-transform: scale(1.09139, 1.34235) translate3d(0, 100%, 0);
-    transform: scale(1.09139, 1.34235) translate3d(0, 100%, 0)
-  }
-  10% {
-    -webkit-transform: scale(.63084, 1.40698) translate3d(0, -100%, 0);
-    transform: scale(.63084, 1.40698) translate3d(0, -100%, 0)
-  }
-  15% {
-    -webkit-transform: scale(.75142, 1.34118) translate3d(0, 100%, 0);
-    transform: scale(.75142, 1.34118) translate3d(0, 100%, 0)
-  }
-  20% {
-    -webkit-transform: scale(.96173, 1.36858) translate3d(0, -100%, 0);
-    transform: scale(.96173, 1.36858) translate3d(0, -100%, 0)
-  }
-  25% {
-    -webkit-transform: scale(1.1348, 1.02729) translate3d(0, 100%, 0);
-    transform: scale(1.1348, 1.02729) translate3d(0, 100%, 0)
-  }
-  30% {
-    -webkit-transform: scale(.97038, .71092) translate3d(0, -100%, 0);
-    transform: scale(.97038, .71092) translate3d(0, -100%, 0)
-  }
-  35% {
-    -webkit-transform: scale(.6067, 1.31101) translate3d(0, 100%, 0);
-    transform: scale(.6067, 1.31101) translate3d(0, 100%, 0)
-  }
-  40% {
-    -webkit-transform: scale(.786, .9326) translate3d(0, -100%, 0);
-    transform: scale(.786, .9326) translate3d(0, -100%, 0)
-  }
-  45% {
-    -webkit-transform: scale(1.38602, 1.14399) translate3d(0, 100%, 0);
-    transform: scale(1.38602, 1.14399) translate3d(0, 100%, 0)
-  }
-  50% {
-    -webkit-transform: scale(.69973, .90412) translate3d(0, -100%, 0);
-    transform: scale(.69973, .90412) translate3d(0, -100%, 0)
-  }
-  51% {
-    -webkit-transform: scale(1, 1) translate3d(0, 0, 0);
-    transform: scale(1, 1) translate3d(0, 0, 0);
-    -webkit-filter: brightness(1) saturate(1);
-    filter: brightness(1) saturate(1);
-    opacity: 0
-  }
-  100% {
-    -webkit-transform: scale(1, 1) translate3d(0, 0, 0);
-    transform: scale(1, 1) translate3d(0, 0, 0);
-    -webkit-filter: contrast(1) brightness(1.2) saturate(1.3);
-    filter: contrast(1) brightness(1.2) saturate(1.3);
-    opacity: 1
-  }
-}
+/* popup */
 
-@-webkit-keyframes turn-off {
-  0% {
-    -webkit-transform: scale(1, 1.3) translate3d(0, 0, 0);
-    transform: scale(1, 1.3) translate3d(0, 0, 0);
-    -webkit-filter: brightness(1);
-    filter: brightness(1);
-    opacity: 1
-  }
-  60% {
-    -webkit-transform: scale(1.3, .001) translate3d(0, 0, 0);
-    transform: scale(1.3, .001) translate3d(0, 0, 0);
-    -webkit-filter: brightness(10);
-    filter: brightness(10)
-  }
-  100% {
-    -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
-    animation-timing-function: cubic-bezier(.755, .05, .855, .06);
-    -webkit-transform: scale(0, .0001) translate3d(0, 0, 0);
-    transform: scale(0, .0001) translate3d(0, 0, 0);
-    -webkit-filter: brightness(50);
-    filter: brightness(50)
-  }
-}
-
-@keyframes turn-off {
-  0% {
-    -webkit-transform: scale(1, 1.3) translate3d(0, 0, 0);
-    transform: scale(1, 1.3) translate3d(0, 0, 0);
-    -webkit-filter: brightness(1);
-    filter: brightness(1);
-    opacity: 1
-  }
-  60% {
-    -webkit-transform: scale(1.3, .001) translate3d(0, 0, 0);
-    transform: scale(1.3, .001) translate3d(0, 0, 0);
-    -webkit-filter: brightness(10);
-    filter: brightness(10)
-  }
-  100% {
-    -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
-    animation-timing-function: cubic-bezier(.755, .05, .855, .06);
-    -webkit-transform: scale(0, .0001) translate3d(0, 0, 0);
-    transform: scale(0, .0001) translate3d(0, 0, 0);
-    -webkit-filter: brightness(50);
-    filter: brightness(50)
-  }
-}
-
-.screen {
+.popup{
   width: 100%;
-  height: 100%;
-  border: none
+  height: 100vh;
+  display: none;
+
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
-.container.off>.screen {
-  -webkit-animation: turn-off .55s cubic-bezier(.23, 1, .32, 1);
-  animation: turn-off .55s cubic-bezier(.23, 1, .32, 1);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards
+#popup-article:target{
+  display: -webkit-box;
+  display: flex;
 }
 
-.container.on>.screen {
-  -webkit-animation: turn-on 2s linear;
-  animation: turn-on 2s linear;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards
+#popup-article2:target{
+  display: -webkit-box;
+  display: flex;
 }
 
-   </STYLE>
+#popup-article3:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+
+
+#popup-article4:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+#popup-article5:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+#popup-article6:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+
+#popup-article7:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+#popup-article8:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+#popup-article9:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+    
+    
+    
+
+#popup-article10:target{
+  display: -webkit-box;
+  display: flex;
+}
+    
+    
+
+#popup-article11:target{
+  display: -webkit-box;
+  display: flex;
+}
+    
+    
+
+#popup-article12:target{
+  display: -webkit-box;
+  display: flex;
+}
+
+      
+
+#popup-article13:target{
+  display: -webkit-box;
+  display: flex;
+}
+    
+    
+    
+  
+
+#popup-article14:target{
+  display: -webkit-box;
+  display: flex;
+}
+    
+
+    
+      
+
+#popup-article15:target{
+  display: -webkit-box;
+  display: flex;
+}
+    
+    
+    
+    
+.popup::before{
+  content: "";
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+
+  position: fixed;
+  left: 0;
+  top: 50%;
+  will-change: height, top;
+  -webkit-animation: open-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) .65s both;
+          animation: open-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) .65s both;
+}
+
+.popup::after{
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+
+  will-change: width, opacity;
+  -webkit-animation: line-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) both;
+          animation: line-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) both;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+}
+
+@-webkit-keyframes line-animation{
+
+  0%{
+    width: 0;
+    opacity: 1;
+  }
+
+  99%{
+    width: 100%;
+    opacity: 1;
+  }
+
+  100%{
+    width: 100%;
+    opacity: 0;
+  }  
+}
+
+@keyframes line-animation{
+
+  0%{
+    width: 0;
+    opacity: 1;
+  }
+
+  99%{
+    width: 100%;
+    opacity: 1;
+  }
+
+  100%{
+    width: 100%;
+    opacity: 0;
+  }  
+}
+
+@-webkit-keyframes open-animation{
+
+  0%{
+    height: 0;
+    top: 50%;
+  }
+
+  100%{
+    height: 100vh;
+    top: 0;
+  }
+}
+
+@keyframes open-animation{
+
+  0%{
+    height: 0;
+    top: 50%;
+  }
+
+  100%{
+    height: 100vh;
+    top: 0;
+  }
+}
+
+.popup__block{
+  height: calc(100vh - 40px);
+  padding: 5% 15%;
+  box-sizing: border-box;
+  position: relative;
+
+  margin: auto;
+  overflow: auto;
+  -webkit-animation: fade .5s ease-out 1.3s both;
+          animation: fade .5s ease-out 1.3s both;
+}
+
+@-webkit-keyframes fade{
+
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes fade{
+
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.popup__title{
+  font-size: 1.5rem;
+  margin: 0 0 1em;
+}
+
+.popup__close{
+  width: 2rem;
+  height: 2rem;
+  text-indent: -9999px;
+
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-image: url(https://cdn.glitch.com/8f01c70f-2de3-4eb1-9d1b-8bb647d7629e%2Fx.png);
+}
+
+/*
+* demo page
+*/
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #000000;
+  margin: 0;
+  overflow: scroll;
+ 
+  display:block;
+  width: 94%;
+  margin: 0 auto; 
+}
+
+::-webkit-scrollbar {
+width: 0px; /* remove scrollbar space /
+background: transparent; / optional: just make scrollbar invisible /
+}
+/ optional: show position indicator in red */
+ 
+ 
+}
+
+
+p{
+  margin: 0;
+  line-height: 1.5;
+}
+
+p:nth-child(n+2){
+  margin-top: 1rem;
+}
+
+.open-popup{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .75rem 1.25rem;
+  border: 1px solid;
+}
+
+.page{
+  min-height: 100vh;
+  display: -webkit-box;
+  display: flex;
+}
+
+.page__container{
+  max-width: 1200px;
+  padding-left: .75rem;
+  padding-right: .75rem;  
+  margin: auto;
+}
+  </STYLE>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128|VT323" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
 
 </head>
 <body oncontextmenu="return false" onkeydown="return false">
-<!-- partial:index.partial.html -->
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>СГ</title>
-   
-</head>
+ 
 
 
-<body class="">
-  <div class="container on">
-    <div class="screen">
-      <h3 class="title">
-        @Sergio.Ad19
-      </h3>
+
+<!-- To Do:
+-Make ExtraCard Bucks -->
+ 
+	<div class="receipt">
+        <div id="canvas"></div><br>
+		<h1 class="logo">@sergio.ad19</h1>
+ 
+
+		<div class="address"> </a>
+	  
+		</div>
+		<div class="centerItem bold">
+			<div class="item">Estado : Activo</div>
+		</div>
+	 
+		 <div class="transactionDetails">
+			<div class="detail">SSN</div>
+			<div class="detail">Clasificación</div>
+			<div class="detail">SENSITIVO</div>
+		</div>
+	 
+		<div class="paymentDetails bold">
+			<div class="detail">Pais</div>
+			<div class="detail">Ru</div>
+		</div>
+		<div class="paymentDetails">
+			<div class="detail">Ciudad</div>
+			<div class="detail">NA</div>
+		</div>
+	 
+		<div class="receiptBarcode">
+			<div class="barcode">
+				SERGIOG
+			</div>
+      <div class="returnPolicy bold">
+			Donaciones ETH.
+  </div>
+			0x807ccb050FbBA6EB6d5fAC038Fbc5DCe2fbeA260
+		</div>
+		<div class="returnPolicy bold">
+			Esta página es un faro de opiniones personales, donde convergen diferentes perspectivas y se entrelazan en un juego de ideas. Las palabras aquí presentes son como ladrillos de conocimiento, colocados con precisión y sustentados por el respaldo de información secundaria y la opinión de terceros.
+  </div>
+		<div class="returnPolicy">
+			<div class="detail">Diciembre 14, 2020</div>
+			<div class="detail">10:16 AM</div>
+		</div>
+
+ 
+
+     <div class="transactionDetails">
+      <a href="#politica">SPB</a>
+       <a href="#arte">DME</a>
+       <a href="#curiosidad">RU</a>
+       <a href="#curiosidades">CURIO</a>
+       <a href="#poemas">POEM</a>
+       
+    </div>
 
 
-      <div class="box--outer">
-        <div class="box">
-          <div class="box--inner">
-            <div class="content">
-               <b>Росси́йская Федера́ция</b><b> — 2021 - Experiencias & Historias</b> <br> Петербург.
-            </br>
+		<div class="tripSummary">
+			<div class="politica"><div id="politica">*** PETERSBURGO ***</a>
+    </div>
+    </div>
+			<div class="item">
+				 
+			</div>
+			<div class="item">
+				 
+			</div>
+		</div>
 
-              
-<div class="ascii-art">
-                                           
-                                                                           `                                                                     `        
-                                                `    `                                                                  
-                                         `       `                                       -`                             
-                          `                        `                                     /s                             
-                                   ```.`.`.---.`.`             ``     `                  +N:                            
-           `                    `./oshhdddmNNNmddys/.```              ` `    ` `         oNd`                           
-               `    `        ``:smNNNNNNNNNNNNNNNNNmmhyso++:/:`     `        ` ``` `     oNNo     `/                    
-     ``    ``     ``      `./sdmMNNNNNNNNNNNNNNNNNNmmmNNNNNmmds:.`          ` ` ``  ` `  sNNN-   :dy                    
-   ```         `        `:ydNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMNNmy:`                      yNNNd``oNNs`+o    .:`          
-                   ```./hNNMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMNNd+```    ` `         `o yNNNNsdNNNmmd:..+h+`           
- `                 ``-yNNMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmmmNNMMNd/..`            -/``NshNNNNNNNNNNNmhhNd/:.    `      
-                  `.+dNNNMNNNNNNNNNNNNNNMMMMMMMNNNNNNNNmmmmmmdNNNNms:``             yd/NNNdhyyhmNNNNNNNNNms-.:+s+.      
-    `       `     .sdNNNNNNNNNNNNNNNNNNMMMMMMMMNNNNNNNmmmmddddmNNNmh+``             .NNNNy/+.`.-.:/oyhdNNyydmmy.        
-     `           `/ydNNNNNNNNNNNNNNNNMMMMMMMMMMNNNNNmmmmddhhyhhmNNmy+.`           -:-oNNN//:  ::`/:.+``.-/oshNho/.      
-                `-sdmNNNNNNNNNNNNNNNMNMMMMMMMMMNNNNNmmddhhyssssdmmmhs/.`     ``.--:ommNNN//:   ``.../`      `/:``       
-                `/shmNNNNNNNNNNNNNNMNMMMMMMMMMMMMMMNNmmdhyso///ydmmmdh/.`` `:+yhmNNNNNNNN///     ``-.        `/         
-               `./odmNNNNNNNNNNNNNmmmmNMMMMMMMMMMMMMNmdddhhs/:-+sdmmmds:.``   ``.:+yhNNNm+/:     ``-`       ``/         
-            ` `-+ydmmNmmNmmNNNNNNmmddddmNNMMMMMMMNmh++++oyhy/:--:shdddho-.`       `:shNNm/+-      `-`      ``.:         
-             `-+dmmmmNmNNmmmmmmdyssssossoshmNmmdy/--:///////:::.:oyyhmmdyo:.`      `/hNNd/o.      `..     ```:-         
-           `.:ymNNNmmNmNNmmmy/       <b class="ascii-art2">:.`.-..``.```...-..    -  .   `-:-:</b>ydhhdmddh+.`    .+hmdhmy/o`       .`   `````/.         
-          .:+dmNNNNNNNmmdydmh<b class="ascii-art2">   -. `. p = m x (l -ln) -...   ``---</b>ohhyhdddyo- `  `::-.`/ms/o  ``....-.  ```.` /`         
-         `-:smNNNNNNNNmmmshmN<b class="ascii-art2">   :` `````....---..----:::..://-...</b>//yyhdhys:.         `:msoo+++++oooss-````   /          
-         <br></b>.oshmNNNNNNNNmddshmMyyyyhhhhyyhdmmmNNdosyddhyo+/smms-.` :oyyyhhso:`         `+oo/--.......:yho.     /          
-         .+hmNNNNNNNNNNmdysmNMMMMMMNNmNNNNNMMMmsosssyhhyymmdo-.`.-+osyyhs+.`          ....``````.--.-+yh:    /          
-        ``+mNNNNNNNNNNNmdmhhNNNNNNNNNmhymNNNNNd+-+.-/shhyso/-.`.-/:/+syys:-.`         `.-:/+/-.```.---/yd+`  +          
-        `./hmmNNNNNNNNNmmmdhmNNNNNmdsoshds+yh+-``..:::+o+/:-..`//+/:/+osys/-`      `:oooo//syhyyo:.`..-:oho` +          
-         `-+ymNNNNNNNNNNNNmdmmmdhys++yhdd/--.```.-.+oo/-::-..`-soyo+//::://``    ``./::/://////osyys:---:sho.+          
-         ``-+dmmmNNNNNNNNNNNmmhys+oyssyh+/o/-`:-:+-:/:+/:+/-../yhhyo+:::::-`    `.-:-......-::::://shhyysyhdy+          
-          ```:ooohdNNNMNNNNNNmmhs++/ooo/-::-.`.``-`..`./--/:-/+syysoss/---`      `.````---......-:/::-:yddddhd-         
-          ````...-ohNNMMNNNNNNmh+::---`.   `            ```..-+yhysoos+-.``         .-:////+oooossh/--.-ydddddh`        
-           ``````.:yNMMMMMMNNNmy//-````   ```````          `---+yshys+++-.`        `.//::::--/+::-oy+++/:ydddddy`       
-               ```-hNMMMMMMNNNmdyoyo++o+:./-::::/-....-``` `.::/ooshyso++-`        .+osyyysooss:.`.++osso/hdddhdy       
-                ``/mNMMMMMMMMNNNdmNmmmmmdhhssyhhdysyyho:/+::/++/+syyhyo/--`       .//:.--///--/+/:--:oyss+ohddhdd/      
-                ``odNMMMMMMMMMNNNNNNNNNNNNNmddmmmmNmmhhhdysoyhhysysoyys+-.     `  .//:-:-..-..`.:oos+shhsso+hddddh      
-                ``.dNMMMMMMMMMMMNNNNNNNNNNNNdmNNNNNNNNNNNmhhddmdhyhyyso+:`         `.-`.:::-..````.::oosyyssshdddd/     
-                 ./yNMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNmhdmmmhdhyoo+-`    `` `````-++/:---.`.````.-:+osssshhddd-    
-              ` `::smNMMMMMMMMMMMMMMMMMMMMMMNNNNNNMMNNNNNNNNmdmmmddhss+.      ` `   ` /o+-:-.--...``````.-//++shdddy    
-               ``-+sdNNNMMMMMMMMMMMMMMMMMMMMMNMNMMMMMNNNNNNNNNmdddhyo/-`     `````    :oo..:...-....``````..--/syhdd    
-                `.-:odNNNMMMMMMMMMMMMMMMMMMMNNNNMMMMMNNNNNNmNmmhmddys-.               :o+` .-`........`````````:oshd`   
-                 ``.++hNNNNNMMMMMMMMMMMMMMMMNNNNMMMNMMNNNNNNmdmhdddhy:`               .+/`  `-........`````````.:+sd`   
-                   `.-+dmNNNMMMMMMMMMMMMMMMMNNNNNMMNMMNNNNNNmmdhysyyy+                 .-/.```-..``````.````````.:+h:   
-                      -/sdmmNMMMMMMMMMMMMMMNNmNNNNNMMNNNNNNNmddyso/://                      ````:-........``..``.-/h/   
-                        -+osmNMMMMMMMMMMMNNNmmmmNNNNNNNNNmNmdhso+-::.`                           -:--.-...```..---/y-   
-                          .ohmNNNMMMMMMNNNdhy+yyhdmNNNNNmmms+/:.`   `                          ---///--.````````..`.    
-                            `:+yydNNNNNNmho+:`.-:-:oydmmdy:- `      `                         .//////++//::--.```..     
-                                 `-:-//+:-.``  ``    .+/-`                                     ``..--:://////+++//      
-                                       ``                                                                ``..--::.      
-                                      `````````` `     ``  `    ` `                                                     
-                                        `     `  `       ```  `                                                  `      
+ 
+ 
+ 
+<div class="address"> <a href="#popup-article" >Paisajes Radioactivos</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#01</div>
+      <div class="detail">FECHA#28/05/2021</div>
+      <div class="detail">CODIGO#0656</div>
+
 
 </div>
-  
-                <div class="row">
-    
-                    
-               
-                  <!-- <b class="flash">ACCESS DENIED</b> -->
-                  <div class="row">
-                   <a id="link" href="./home.html"> [ENTRAR] </a> 
+    <div class="transactionDetails">
+      Creado por: Sergio G.
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
 
-                 
-<br>
-<br>
-<br>
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+
+<div class="address"> <a href="#popup-article2" >Se Viene el Puente</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#02</div>
+      <div class="detail">fecha#30/05/2021</div>
+      <div class="detail">CODIGO#0167</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Creado por: Sergio G.
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+      <div class="address"> <a href="#popup-article3" >El Pueblo</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#03</div>
+      <div class="detail">fecha#31/05/2021</div>
+      <div class="detail">CODigo#0625</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Creado por: Sergio G.
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
  
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
+	</div>
+</div>
+
+<!-- partial:index.partial.html -->
+
+
+
+
+<div class="returnPolicy">
+      </div>
+    <div class="tripSummary">
+    <div class="arte"><div id="arte">*** MOSCÚ ***</a>
+    </div>
+    </div>
+       
+      <div class="item">
+         
+      </div>
+      <div class="item">
+         
       </div>
     </div>
+
+ 
+ 
+ 
+<div class="address"> <a href="#popup-article4" >Arquitectura Estalinista</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#01</div>
+      <div class="detail">Fecha#04/06/2021</div>
+      <div class="detail">CODigo#0218</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Creado por: Sergio G.
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+
+<div class="address"> <a href="#popup-article5" >Estaciones de Metro</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#02</div>
+      <div class="detail">Fecha#08/06/2021</div>
+      <div class="detail">CODigo#0574</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Creado por: Sergio G.
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+      <div class="address"> <a href="#popup-article6" >Las Calles de Moscú</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#03</div>
+      <div class="detail">Fecha#05/06/2021</div>
+      <div class="detail">CODigo#0274</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Creado por: Sergio G.
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+ 
+
+
   </div>
+</div>
 
-</body>
+<!-- partial:index.partial.html -->
 
-</html>
-<!-- partial -->
+
+
+
+
+
+<div class="returnPolicy">
+      
+    </div>
+    <div class="tripSummary">
+     <div class="curiosidad"><div id="curiosidad">*** РОССИЯ ***</a>
+    </div>
+    </div>
+      <div class="item">
+         
+      </div>
+      <div class="item">
+         
+      </div>
+    </div>
+
+ 
+ 
+ 
+<div class="address"> <a href="#popup-article7" >Revisionismo en ▆▆▆▆▆▆▆▆▆ </a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#01</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+
+<div class="address"> <a href="#popup-article8" >▆▆▆▆▆▆▆▆ Contracultura</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#02</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+      <div class="address"> <a href="#popup-article9" >▆▆▆▆▆▆▆▆ 1382 ▆▆▆▆</a>
+        
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#03</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+ 
+
+
+  </div>
+</div>
+
+<!-- partial:index.partial.html -->
+
+
+
+      <div class="returnPolicy">
+      
+    </div>
+    <div class="tripSummary">
+     <div class="curiosidades"><div id="curiosidades">*** CURIOSIDAD ***</a>
+    </div>
+    </div>
+      <div class="item">
+         
+      </div>
+      <div class="item">
+         
+      </div>
+    </div>
+
+ 
+ 
+ 
+<div class="address"> <a href="#popup-article10" >SHIT HAPPENS </a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#01</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+
+<div class="address"> <a href="#popup-article11" >Museos Urbanos</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#02</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+      <div class="address"> <a href="#popup-article12" >Porno Propaganda</a>
+        
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#03</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+ 
+
+
+  </div>
+</div>
+
+<!-- partial:index.partial.html -->
+
+      
+      
+      
+      <div class="returnPolicy">
+      
+    </div>
+    <div class="tripSummary">
+     <div class="poemas"><div id="poemas">*** РOEMA ***</a>
+    </div>
+    </div>
+      <div class="item">
+         
+      </div>
+      <div class="item">
+         
+      </div>
+    </div>
+
+ 
+ 
+ 
+<div class="address"> <a href="#popup-article13" >Un Halito de Vida </a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#01</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+
+<div class="address"> <a href="#popup-article14" >Дыхание жизни</a>
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#02</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+
+      <div class="address"> <a href="#popup-article15" >Atem des Lebens</a>
+        
+    </div>
+    <div class="transactionDetails">
+      <div class="detail">Archivo#03</div>
+      <div class="detail">Fecha#▆▆▆▆▆▆▆▆</div>
+      <div class="detail">Codigo#▆▆▆</div>
+
+
+</div>
+    <div class="transactionDetails">
+      Helped by: Anonym
+    </div>
+    <div class="centerItem bold">
+       
+    </div>
+
+    <div class="feedback">
+      <div class="break">
+        *************************************
+      </div>
+ 
+
+
+  </div>
+</div>
+
+<!-- partial:index.partial.html -->
+
+      
+      
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  <span class="dec">Titulo</span>
+  <span class="name">Paisajes Radioactivos</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">"09∶37∶12"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">"dom 28 may 2021"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">"▆▆▆▆▆▆▆▆"</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
   
+    <span class="key"> 
+      
+<p></p>
+<p>Desde<strong> que puse un pie en Rusia, una sensación inexplicable de misterio se ha apoderado de mí. Los bloques de edificios se alzan imponentes en cada esquina, ocultando secretos en sus sombras. Los paisajes y las vistas que se despliegan ante mis ojos parecen pertenecer a un mundo desconocido, una realidad alternativa donde el tiempo se ha retorcido y transformado. Cuando hablo del futuro, no me refiero a una utopía idealizada. No, en este caso, puedo imaginar un futuro distópico, una visión extraída de las páginas de novelas al estilo steampunk o cyberpunk. En las carreteras, las luces de neón destellan, arrojando destellos de incertidumbre sobre la arquitectura antigua y los bloques construidos en los días de la unión soviética. El contraste entre ambos mundos es perturbador, como si el pasado y el futuro se entrelazaran en una danza inquietante. El primer encuentro visual impactante ocurrió al llegar al apartamento en San Petersburgo. Las autopistas se extendían como tentáculos en la oscuridad de la noche, bañadas en una iluminación excesiva que revelaba una extraña calma, con un escaso flujo de automóviles. Mientras Eva entablaba una conversación con el conductor, mis ojos se mantuvieron fijos en la ventana, atrapados en una búsqueda insaciable de los misterios que se ocultaban más allá. Cada detalle del panorama era una pista, una pizca de la verdad que anhelaba descubrir. A los costados, un horizonte plano se extendía, adornado con pinos y fábricas en ruinas, testigos silentes de un pasado tumultuoso. Pero al acercarnos más, emergían majestuosas las imponentes edificaciones, como monumentos del renacer de una era olvidada.
+  
+  </strong></p>
+
+      
+      <p></p>
+      <iframe title="Paisajes Radioactivos" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0656.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+  
+
+<p><strong>Durante el trayecto, intercambié algunas palabras con el conductor en mi inglés coloquial, "hi, do you speak english?". El hombre me respondió en ruso, "Я не понимаю английский" (no entiendo inglés). Me vi obligado a recurrir a mi traductora certificada para transmitir mi mensaje de manera adecuada: "¿Sabe cómo podemos extender mi estadía en Rusia?". Fue entonces cuando él comenzó a contarnos su historia sobre cómo llegó a San Petersburgo. Resulta que era de Uzbekistán y nos relató lo fácil que fue para él llegar a Rusia. Inicialmente, tuvo que someterse a un examen de ruso en el que le preguntaban sobre la historia y las leyes de Rusia. Además, tuvo que responder una serie de preguntas para demostrar su dominio del idioma. Nos comentó que el examen no era demasiado complicado e incluso mencionó que antes de presentarlo, hay personas dispuestas a hacerlo por uno, pero uno debe estar presente y responder algunas preguntas. Según él, el precio no superaba los 500 dólares. De esta manera, la continuidad de mi viaje en Rusia se entrelaza con el misterio que envuelve esta tierra monumental. Cada paso me sumerge más en la intriga y el realismo palpable que se ocultan en cada rincón de este país enigmático. ¿Qué secretos aguardan en esos imponentes bloques de edificios? ¿Qué historias se desvanecen en los ecos de la arquitectura soviética? Solo a través de la exploración incansable y el descubrimiento de estos enigmas podré alcanzar una comprensión más profunda de Rusia y su intrigante esencia.
+  </strong></p>
+
+<p><strong>Mientras cruzábamos algunas calles, nos dimos cuenta de que nos habíamos perdido debido a la inexactitud del navegador o GPS, probablemente debido a temas de seguridad del país. Pagamos al conductor con tarjeta, ya que aquí no se maneja efectivo. Al salir del auto, pude sentir el clima, muy similar al de Bogotá en la noche. Nos acercamos a las escaleras, a menos de un minuto de llegar a la puerta principal. Eva sacó sus llaves electrónicas y al acercarlas, la puerta emitió tres pitidos, luego tuvimos que jalar fuertemente del pesado picaporte de metal.
+
+Luego, nos encontramos con otra puerta que debíamos abrir y, finalmente, saludamos a la vigilante con un formal "stradsbuitia" (страсдбуитья, un saludo para decir hola en ruso). Estas vigilantes son señoras mayores, conocidas como "babushkas" (бабушки), que saben todo lo que sucede en el barrio y en los bloques donde residen las personas. Podría decirse que no podríamos estar más vigilados. Ellas duermen en el apartamento del primer piso, donde tienen su cuarto, un sofá, un televisor y una pantalla con todas las cámaras de seguridad. Estos bloques de apartamentos son una muestra de la arquitectura de la Unión Soviética, más parecidos a bunkers que a viviendas.
+
+Al entrar, el olor a nicotina era bastante fuerte, aunque con el paso de los días me he ido acostumbrando. Luego teníamos que tomar el ascensor, pero debíamos tener cuidado al entrar, ya que si la puerta se cerraba, no se podía detener. Si eso sucedía, el ascensor se averiaba y tomaría varios días repararlo. Por suerte, no fui víctima de ese contratiempo.
+
+Al llegar al piso, teníamos que abrir una tercera puerta y recorrer el pasillo hasta llegar al apartamento. Todos los apartamentos parecían ser iguales, con puertas gruesas de unos 20 cm. Bajamos las maletas y Eva me mostró cada rincón del apartamento, explicándome el uso correcto de cada cosa. Yo le decía cariñosamente que necesitaba tiempo para entender y adaptarme a todo, que aunque ella quisiera que lo comprendiera de inmediato, necesitaba tomarme mi tiempo. Así llegamos a un primer acuerdo sobre cómo debíamos organizarnos y que en los próximos días me iría explicando otras cosas. Me mostró la vista desde el apartamento, de la cual tomé una foto, y nos preparamos para dormir.
+  </strong></p>
+
+   
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+<!-- partial:index.partial.html -->
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article2" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  <span class="dec">Titulo</span>
+  <span class="name">Se viene el Puente</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">"08∶12∶14"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">"30 mayo, 2021"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">"Набережная топ"</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{<a href="https://www.google.de/maps/place/59%C2%B058'06.0%22N+30%C2%B014'04.2%22E/@59.9683423,30.2334047,283m/data=!3m2!1e3!4b1!4m13!1m6!3m5!1s0x469636ecc0b23029:0x385942b59e488b88!2sEstadio+Krestovski!8m2!3d59.972728!4d30.2214045!3m5!1s0x0:0x0!7e2!8m2!3d59.9683413!4d30.234499">59.968341, 30.234499</a>}
+      </span>,
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+      <p></p>
+<p>El <strong>Golfo de Finlandia. No pasaron dos días y Eva ya quería mostrarme toda la ciudad. En medio de mi desconcierto y desorientación, sentía que algo me faltaba y todo se veía extraño. Sin embargo, ella irradiaba alegría y entusiasmo por estar juntos en Rusia. Mientras tanto, yo expresaba mi admiración por la belleza y novedad de todo, pero anhelaba descansar en la comodidad de nuestra cama y disfrutar de días de descanso tranquilos los sábados, domingos y festivos.
+
+Ella, en cambio, estaba acostumbrada a un estilo de vida activo y no podía quedarse quieta. Finalmente, me dejé llevar por el encanto de su espíritu aventurero y le dije con amor: "Vamos a disfrutar, nos vamos a la playa, cariño". Nos organizamos rápidamente, preparé mi maleta y me puse las botas. Abrazando a mi esposa, le susurré al oído lo hermosa que se veía y le agradecí por la maravillosa invitación. Sellé nuestras palabras con un dulce beso, notando su mirada intrigada. Cerramos la puerta detrás de nosotros y emprendimos nuestro recorrido.
+
+Nuestro primer destino fue la estación de metro, ubicada a tan solo 10 minutos del apartamento. Allí compramos las tarjetas de metro y las cargamos con 500 rublos cada una (equivalentes a 25.822 pesos colombianos). Me resultaba curioso que Eva prefiriera el autobús en lugar del metro, ya que consideraba que a través de las ventanas del bus se podía apreciar toda la ciudad. Por mi parte, prefería el metro, incluso si significaba tener que viajar de pie, pues el tiempo de traslado era más corto y luego podría relajarme en un parque, deleitándome con el paisaje. Pero como mencioné anteriormente, a ella le encantaba moverse y explorar largas distancias.
+
+Al salir de la estación de metro, nos encontramos en la carretera principal, listos para abordar el Cebollo, un autobús que recordaba mucho a los buses de mi amada Colombia. Subimos al vehículo, realizando el pago nuevamente con tarjeta, y nos sentamos cerca de la ventana para disfrutar del paisaje. La verdad es que resultó un trayecto agradable y nostálgico, ya que me recordaba un poco a mi tierra.
+
+Así, entre susurros de amor y la promesa de nuevas aventuras, nos adentramos en la ciudad, dejándonos llevar por la emoción de descubrir juntos los rincones de Rusia y forjar recuerdos imborrables en nuestro viaje.
+  </strong></p>
+      
+      <p></p>
+      <iframe title="Se viene el Puente" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0121.JPG" frameborder="0"></iframe>
+
+      
+
+<p><strong>Todo transcurría de manera emocionante hasta que decidimos bajarnos y caminar hacia la playa. Para ser honesto, no tenía ni la menor idea de cuánto debíamos recorrer ni qué distancia nos separaba del lugar al que llegamos. Me sentía completamente desorientado, y para empeorar las cosas, comencé a experimentar incomodidad en la planta de mis pies debido a la elección equivocada de calzado. Lamentablemente, no había traído unos tenis adecuados y me arrepentía de mi descuido. A pesar de ello, continué caminando, con Eva mirándome y preguntándome cariñosamente si me gustaba el paisaje. Con una sonrisa forzada, le respondí: "Claro, cariño, es espectacular. Me emociona hasta las lágrimas". Seguimos avanzando mientras ella señalaba y me mostraba diferentes puntos de interés. Aunque Eva era encantadora, debo admitir que solo capté alrededor del 3% de todo lo que me decía, ya que mi mente estaba obsesionada en encontrar una solución para mis botas. Finalmente, llegamos a una plazoleta donde la gente se congregaba para bailar. Grupos previamente convocados se reunían allí para practicar distintos estilos, como salsa, baile noruego, tango y otros. Me pareció curioso e interesante presenciar cómo las personas se reunían para disfrutar del baile. Aunque me considero un buen bailarín y, para quienes me conocen, el alma de la fiesta, en ese momento prefería simplemente observar. Sentía que llevaba conmigo un paso y un ritmo enérgicos. En un instante, Eva me miró y me expresó su preocupación. Me dijo que su intención era mostrarme todo y compartir esos momentos juntos, pero notaba que no estaba disfrutando. No pude guardar mis sentimientos por más tiempo y, al imaginar el regreso, decidí contarle la verdad tal como era. Le dije: "Amor, de verdad, todo es hermoso y me encanta este lugar, la atmósfera y la playa son increíbles. Pero tengo un dolor desesperante en la planta de los pies. Creo que tengo ampollas y sinceramente no sé si debería quedarme de pie o sentarme, ya que el dolor me dificulta caminar. No sé cómo hacer para regresar". Afortunadamente, ella comprendió mi situación y me explicó que el dolor era debido a las botas. Me sugirió que, la próxima vez antes de salir, me pusiera unos tenis más adecuados. Continuamos conversando, compartiendo lo que quedaba de tarde. Tomé algunas fotos y le enseñé a Eva a manejar la cámara, capturando momentos aquí y allá. Luego, observé a un hombre pescando y sentí la necesidad de tomar una fotografía de ese momento.
+  </strong></p>
+      
+</span> 
+   
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+
+
+
+
+<!-- partial:index.partial.html -->
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article3" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  <span class="dec">Titulo</span>
+  <span class="name">El Pueblo</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">"08∶12∶14"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">"31 Mayo, 2020"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">"Девяткино"</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="https://www.google.de/maps/@60.0525385,30.4311785,3a,75y,192.13h,89.81t/data=!3m7!1e1!3m5!1sWucfoppmb3jTgQrUamZKcA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DWucfoppmb3jTgQrUamZKcA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D101.052704%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656">60.052532, 30.431225</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+ <p></p>
+<p>Nuestra <strong>primera visita a un pueblo ruso resultó ser un tanto complicada. Estábamos acostados en la cama cuando Eva me comentó que tenía que hacerse la prueba de PCR o recibir la vacuna. En ese momento, yo me encontraba bastante relajado al respecto y le dije: "¿PCR o vacuna? Ven aquí, cariño, yo te vacuno". En ese instante, las sábanas y las almohadas volaron por el aire, fue un golpe repentino y fuerte cuando me explicó que si no nos realizábamos la prueba o la vacuna en un plazo de 2 días, nos impondrían una multa de 38,879.4 rublos (equivalentes a 2,000,000 de pesos colombianos), y debíamos conseguirlos. Así que, de manera diligente, le respondí: "Claro, mi amor, hagamos la prueba de PCR". Ahí se terminó la broma. Después de nuestra llegada a Rusia, debíamos completar una serie de trámites para validar nuestra estadía. El primero consistía en acudir a una notaría en un plazo no mayor a 5 días antes de la llegada. Esto debíamos hacerlo en una oficina postal y para ello, teníamos que imprimir un formulario de 6 páginas y completarlo con todos los datos de Eva y los míos. La atención de la recepcionista en la oficina postal fue relativamente buena, en comparación con otras experiencias que habíamos tenido. Luego, debíamos realizarnos la prueba de COVID-19 en un plazo de 3 días, de lo contrario, nos expondríamos a una multa. Buscamos en diferentes lugares para hacerlo, pero no teníamos una ubicación exacta, ya que los servicios al cliente aquí, por alguna razón desconocida, no estaban disponibles. Por lo tanto, tuvimos que buscar en un directorio virtual e ir directamente al lugar para obtener información más detallada. 
+  </strong></p>
+
+
+      <p></p>
+      <iframe title="Publicidad en Rusia" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0749.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+ <p></p>
+<p>Como <strong> siempre, nos preparamos para salir, pero esta vez no tenía zapatos adecuados. Al no tener otra opción, Eva me prestó unos tenis. Todo iba bien, mis pies estaban cómodos y no sentía molestias al caminar, ya que los tenis tenían una suela suave y amortiguada. Fuimos a diferentes lugares, pero no encontramos ninguno que entregara los resultados de la prueba en 24 horas. Sin embargo, uno de esos lugares me llamó mucho la atención, ya que te proporcionaban los elementos necesarios para hacer la prueba en casa. Al no encontrar más opciones, nos quedaba una única alternativa: ir al pueblo que se encontraba a unos 30 minutos de San Petersburgo. Ya habíamos caminado bastante buscando dónde realizar esa maldita prueba, y yo empezaba a sentir dolor en mis pies, con ampollas y los dedos apretados en esos tenis pequeños. Pero bueno, vamos al pueblo. Esta vez, estaba más motivado por conocerlo, ya que en mi mente imaginaba un típico pueblo ruso con casas antiguas. Eva solicitó un taxi a través de la aplicación, llegó por nosotros y nos dirigimos al pueblo. Durante el trayecto, miraba por las ventanas del taxi y el paisaje seguía siendo nuevo para mí: pinos y bloques en el horizonte. Pasamos por una carretera que nos acercaba a los bloques de apartamentos, y en ese momento le pregunté a Eva: "Amor, ya han pasado 30 minutos, ¿dónde está el pueblo?". Ella se rió y me dijo: "Cariño, este es el pueblo". Fue un impacto bastante duro para mí, ver esos enormes edificios y ninguna casita. Eva explicó que a esos edificios los llaman "hormigones". Después de llegar, tuvimos que hacer una fila de una hora para que nos atendieran. Solo Eva podía realizar la prueba, ya que como turista no era necesario que yo la hiciera. Me quedé esperando fuera del edificio durante unos 30 minutos, sin saber qué hacer. Estaba muy incómodo y no soportaba el dolor en los pies. Por suerte, encontramos un mercado chino donde vendían tenis a buen precio. La chica que nos atendió fue muy amable y nos mostró diferentes opciones. Finalmente, encontramos unos Adidas que lucían frescos y cómodos al caminar. Compré esos tenis por 30,000 pesos colombianos y me sentí como nuevo. Ahora podía caminar sin problemas y con mucho menos dolor.
+  </strong></p>
+      
+      
+</span> 
+   
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article4" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  <span class="dec">Titulo</span>
+  <span class="name">Arquitectura Estalinista</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">"▆▆▆▆▆▆▆▆▆▆"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">"04 Junio, 2021"</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+<p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Gum Market" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0218.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+
+
+</span>
+   
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article5" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  <span class="dec">Titulo</span>
+  <span class="name">Estación del Metro</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Gum Market" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_00401.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+   
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article6" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+    <span class="dec">Titulo</span>
+  <span class="name">Las calles de Moscú</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Gum Market" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0852.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+      
+      
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article7" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+    <span class="dec">Titulo</span>
+  <span class="name">Revisionismo en ▆▆▆▆▆▆▆▆</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Gum Market" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0449.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+   
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article8" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+    <span class="dec">Titulo</span>
+  <span class="name">▆▆▆▆▆▆▆▆▆▆ Contracultura</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Gum Market" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0276.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+
+
+
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article9" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Titulo</span>
+  <span class="name">▆▆▆▆▆▆▆▆ 1382 ▆▆▆▆</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Gum Market" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0709.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+
+
+  
+  <!-- / NOTICIA --><!-- / NOTICIA --><!-- / NOTICIA --><!-- / NOTICIA --><!-- / NOTICIA -->
+  
+  
+  
+  
+  
+  
+  
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article10" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Titulo</span>
+  <span class="name">SHIT HAPPENS</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Conejos" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0186.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+  
+  
+  
+  
+  
+  
+  
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article11" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Titulo</span>
+  <span class="name">Museos Urbanos </span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Museos" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0345.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+  
+  
+  
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article12" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Titulo</span>
+  <span class="name">Porno Propaganda</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">▆▆▆▆▆▆</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Coordenadas</span>: 
+      <span class="value">{
+        <a href="">▆▆▆▆▆▆</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.58
+
+hIwDmCS94uDDx9kBA/9C9bb/aDPHsbLnKj1twrw0dD+MJQ8cGKTdUVGpfmEO6HXq
+46GuRyupobHRvVtDxbZ5LHmZEhv2awkajUoXtJRawcKhAwScQSzS1wP8nbBoTn69
+Y+m3MwvMRof4EcrB3kI4rby51Nhq7PqGmf0O2SP/A0Y87cL98OtLj+54z0Pi+NLC
+EgGR+u9i4xd+RDM2/2dreh4fzjDaKzD4zhGIbJPHtfTXA9IwgoOt6UcBQUcT/8oe
+R9JD0RWYbxvdom2abSqTnO/R4kDiCfCzWAMNN273nHBxBPXia4dUopn8sNmp7/ck
+6PV42BdaWiNDruHdS9gNDPXysx6kgkv0iurqS4+TafloC9jcZKHbpowzXBIin1Yl
+XLw2VIyoeUhNEFcFOgt62d21wXsQPgOJ65EM/LFQwIVslSjBxo9/A9rdTFFASOAW
+EgKM/FF6f/gEuMZS7pMgC2ofWxLM7GZddn3fFpepatNhafaE2z4JbCYw4H9Cr+qj
+Hx30AToeL3nhT08A9ImfVe+ID/0eOO9ggvgI+4JtMgZHZm9R+8uy8iWqPwzu7zLm
+16i0ZXfmSuG0agokYp7uLxVu7z0xw9A49ScMDF/o+0mzN0EFIQPNipIL7aQcPqzC
+xw5xFMjXMIbqpuLRlUMu6r2GWtBEjw7O/HpiJ6kmVkrgl6v8gDH67NEtVnCvvslu
+T3pMrqRofVeo9jXo+hDxMO/PpEBjPA52JvtZMiJ6jKKk1UcBARINgM7/D9A8Izkf
+Qe2nB1KO0qJFNNO2bWVocrYMnyg24jRPlTeYJH77ZUDhxb+YMJMf/UJsmxJe2eF7
+uYvROct9qb+JZUNYGioLfr3shPAtTBZmeYxHDc7UMHmxyWuSyrSgrj0LbxXSmvjj
+JrNVoJt2YhXNWXha5f7ZQhkyiN7K4u+MInT2rJPcrjENrMwU0JHN9h1wqaoHyQhr
+1aIEsKbJ/0xiY1h4hbWjKlf5P6fjVOAv2rsQpKYyBKW4pv117dHxB4AuKdtw5pG0
+O1Ko7QfKD3QlZi+B54Fkc6s55n2g7hMGmfa3E4DAnnKuTmJNAXqlpv9W7uNmhgGk
+4RHHly4coxe7pSl5u5xxeF0G6y2UuupGLXx4K7OvUCim3LMKB2z8c18PE54enXjg
+nDw8
+=cU1W
+-----END PGP MESSAGE-----</strong></p>
+
+  <p></p>
+      <iframe title="Porno" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0454.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+  
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article13" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Titulo</span>
+  <span class="name">Un Hálito de Vida</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Hora</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Fecha</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Lugar</span>: <span class="value">San Petersburgo</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Autor</span>: 
+      <span class="value">{
+        <a href="consultor.carloshg@gmail.com">Carlos Escobar</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>El espíritu enaltece y crece con el amor, sin amor el ser humano es como un ave sin sus alas.
+        <p></p>
+        <p></p>
+
+En las situaciones más angustiantes y en crisis convulsivas debemos exaltar el afecto, lo bello, la estética del amor, la dignidad y la divinidad del lado más humano de la humanidad. Recurrir a lo más íntimo de hálito de vida, que nos propugna ánimo, sensatez, pureza y energía vital para batallar y luchar por las libertades y esperanzas sobre nuestro ser en interacción con nuestra madre tierra y otros seres. Que tenemos y debemos compartirla cooperativa y solidariamente.
+<p></p>
+<p></p>
+Cruzar por un jardín de flores, con sus majestuosos colores, pletórico de energía sinigual, que exhalan distintos olores, fragancias que inhalan mi olfato y realzan mi sensibilidad natural. Esto me retorna a mis días anteriores, mi historia en relación universal con la naturaleza plena: ¿esto no es acaso lo que hemos perdido y tenemos la obligación moral y ética de recuperar?
+<p></p>
+<p></p>
+En esa pureza que la naturaleza muestra será posible redimir el amor y la gracia de la biodiversidad en relación con el espíritu más humano del hombre, sensato y consciente del valor que representa defender y amar toda expresión de vida.
+<p></p>
+<p></p>
+Necesitamos verdad y sabiduría para reencauzar el camino, maltrecho y desvencijado por nuestros actos de barbarie y destrucción insensata y cruel. No sigamos causando este desastre, desolación y rabia, que provoca desigualdad, inequidad e injusticia social y ambiental.
+<p></p>
+<p></p>
+Crecer humanamente es evolucionar con responsabilidad, con consciencia histórica de nuestro rol social, de la apertura a pensamientos virtuosos, y dignificando la vida.
+Hay en la existencia un halito de vida, una luz de esperanza, hagamos posible que sea perdurable e intensa para iluminar nuestro camino futuro. Necesitaremos de amor, sabiduría, ideas, sueños y utopías para imaginar y construir un mundo del bienestar y la armonía entre la cultura y la naturaleza. En el entramado de la vida en todo su fulgor, somos seres que pertenecemos a la naturaleza como un elemento más, no tenemos el derecho, ni el poder de derribar sus tejidos, por el contrario, contribuir a zurcir sus hilos en una compleja red de espiritualidades, anhelos y sueños colectivos.
+</strong></p>
+
+  <p></p>
+      <iframe title="Hálito" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0528.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+  
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article14" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Заголовок</span>
+  <span class="name">Дыхание жизни</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Час</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Дата</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Место</span>: <span class="value">Санкт-Петербург</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Автор </span>: 
+      <span class="value">{
+        <a href="consultor.carloshg@gmail.com">Карлос Эскобар</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>Дух возвышается и растет любовью, без любви человек подобен птице без крыльев.
+<p></p>
+<p></p>
+        
+В самых тяжелых ситуациях и в судорожных кризисах мы должны превозносить привязанность, красоту, эстетику любви, достоинство и божественность самой человечной стороны человечества. Прибегать к самому сокровенному дыханию жизни, которое побуждает нас иметь смелость, здравый смысл, чистоту и жизненную энергию для борьбы и борьбы за свободу и надежду на то, что мы взаимодействуем с нашей матерью-землей и другими существами. Что у нас есть и мы должны делиться этим сообща и солидарно.
+<p></p>
+<p></p>
+        
+Я пересекаю цветник с его величественными красками, полными непревзойденной энергии, которые источают разные запахи, ароматы, которые вдыхают мой нос и усиливают мою естественную чувствительность. Это возвращает меня к моим предыдущим дням, моей истории в универсальных отношениях с полной природой: разве это не то, что мы потеряли и имеем моральное и этическое обязательство выздороветь?
+<p></p>
+<p></p>
+        
+В той чистоте, которую демонстрирует природа, можно будет искупить любовь и благодать биоразнообразия по отношению к самому человеческому духу человека, разумному и осознающему ценность защиты и любви к каждому проявлению жизни.
+<p></p>
+<p></p>
+        
+Нам нужны истина и мудрость, чтобы изменить путь, истерзанный и шаткий из-за наших актов варварства и бессмысленного и жестокого разрушения. Давайте не будем продолжать вызывать эту катастрофу, опустошение и ярость, которые вызывают неравенство, неравенство, социальную и экологическую несправедливость.
+<p></p>
+<p></p>
+        
+Чтобы расти гуманно, нужно развиваться с ответственностью, с историческим осознанием нашей социальной роли, от открытости к добродетельным мыслям и достойной жизни.
+Существует дыхание жизни, свет надежды, позвольте нам сделать так, чтобы он был прочным и интенсивным, чтобы освещать наш будущий путь. Нам понадобятся любовь, мудрость, идеи, мечты и утопии, чтобы представить и построить мир благополучия и гармонии между культурой и природой. В ткани жизни во всем ее блеске мы - существа, принадлежащие природе как еще один элемент, у нас нет права или силы разорвать ее ткани, напротив, чтобы внести свой вклад в исправление ее нитей в сложном комплексе. сеть коллективных духовностей, желаний и мечтаний. </strong></p>
+
+  <p></p>
+      <iframe title="8 Copas" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0528.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+  
+<!-- NOTICIA -->
+
+<div class="page">
+  <div class="page__container">
+    
+  </div>
+</div>
+<div id="popup-article15" class="popup">
+  <div class="popup__block">
+   
+<div id="card">
+<div id="object">
+  
+  
+    <span class="dec">Titel</span>
+  <span class="name">Atem des Lebens</span>
+   
+  <p class="brackets pairs">
+    <span class="pair">
+      <span class="key">Stunde</span>: <span class="value">▆▆▆▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Datum</span>: <span class="value string">▆▆▆▆▆▆</span>,
+    </span>
+    <span class="pair">
+      <span class="key">Stelle</span>: <span class="value">St. Petersburg</span>,
+    </span>
+     
+    <span class="pair">
+      <span class="key">Autor</span>: 
+      <span class="value">{
+        <a href="consultor.carloshg@gmail.com">Carlos Escobar</a>}
+      </span>
+    </span>
+  </p>
+ 
+  <span class="brackets"> </span>
+  
+    <span class="key"> 
+
+
+      
+      <p><strong>Der Geist erhebt und wächst mit Liebe; ohne Liebe ist ein Mensch wie ein Vogel ohne Flügel.
+<p></p>
+<p></p>
+        
+In den schwierigsten Situationen und in krampfhaften Krisen müssen wir Zuneigung, Schönheit, die Ästhetik der Liebe, die Würde und Göttlichkeit der menschlichsten Seite der Menschheit preisen. Auf den innersten Atemzug des Lebens zurückzugreifen, der uns Mut, gesunden Menschenverstand, Reinheit und Vitalität aufbringt, um für Freiheit zu kämpfen und zu kämpfen und die Hoffnung, dass wir mit unserer Mutter Erde und anderen Wesen interagieren. Was wir haben und das müssen wir gemeinsam und solidarisch teilen.
+<p></p>
+<p></p>
+        
+Ich durchquere den Blumengarten mit seinen majestätischen Farben voller unvergleichlicher Energie, die verschiedene Düfte verströmen, Düfte, die in meine Nase atmen und meine natürliche Sensibilität steigern. Dies bringt mich zurück in meine früheren Tage, meine Geschichte in einer universellen Beziehung zur vollständigen Natur: Ist das nicht etwas, das wir verloren haben und eine moralische und ethische Verpflichtung haben, gesund zu werden?
+<p></p>
+<p></p>
+        
+In der Reinheit, die die Natur zeigt, wird es möglich sein, die Liebe und Gnade der Artenvielfalt in Bezug auf den sehr menschlichen Geist des Menschen zu erlösen, der intelligent ist und den Wert des Schutzes und der Liebe für jede Manifestation des Lebens erkennt.
+<p></p>
+<p></p>
+        
+Wir brauchen Wahrheit und Weisheit, um einen Weg zu ändern, der von unseren Akten der Barbarei und der sinnlosen und brutalen Zerstörung gequält und ins Wanken geraten ist. Lassen Sie uns nicht weiterhin diese Katastrophe, Verwüstung und Wut verursachen, die Ungleichheit, Ungleichheit, soziale und ökologische Ungerechtigkeit verursachen.
+<p></p>
+<p></p>
+        
+Um menschlich zu wachsen, müssen Sie sich verantwortungsbewusst entwickeln, mit einem historischen Bewusstsein unserer sozialen Rolle, von der Offenheit zu tugendhaften Gedanken und einem würdigen Leben.
+Es ist ein Hauch von Leben, ein Licht der Hoffnung, lass es uns nachhaltig und intensiv machen, um unseren zukünftigen Weg zu beleuchten. Wir brauchen Liebe, Weisheit, Ideen, Träume und Utopien, um eine Welt des Wohlbefindens und der Harmonie zwischen Kultur und Natur zu repräsentieren und aufzubauen. Im Gefüge des Lebens in all seiner Pracht sind wir Geschöpfe, die der Natur als einem anderen Element angehören, wir haben kein Recht oder keine Macht, ihr Gewebe zu zerreißen, im Gegenteil, um zur Korrektur ihrer Fäden in einem komplexen Komplex beizutragen. ein Netzwerk aus kollektiver Spiritualität, Wünschen und Träumen.</strong></p>
+
+  <p></p>
+      <iframe title="Familia" width="520" height="415" src="https://cdn.glitch.com/72f7a1b1-ef92-4f66-bfdd-4b052cd88c3d%2FDSC_0528.JPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+      
+      
+      
+ </span> 
+  
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+ 
+    <a href="#" class="popup__close">close</a>
+  </div>
+</div>
+<!-- partial -->
+
+
+<!-- / NOTICIA -->
+
+
+<script type=»text/javascript»>
+
+document.oncontextmenu = function(){return false;}
+
+</script>
+	    
+	    <script type=»text/javascript»>
+
+document.write(escape(cryptoS3E8R6Gcrypt)
+
+</script>
+	    
+	    
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+
+
+
+
+
 </body>
 </html>
